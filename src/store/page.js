@@ -1,5 +1,6 @@
 import { makeAutoObservable } from "mobx";
 import { AppOutline, UserOutline } from "antd-mobile-icons";
+import { makePersistable, isHydrated } from "mobx-persist-store";
 
 class PageStore {
   count = 0;
@@ -17,6 +18,14 @@ class PageStore {
   ];
   constructor() {
     makeAutoObservable(this);
+    makePersistable(this, {
+      name: "page",
+      properties: ["count"],
+      storage: window.localStorage,
+    });
+  }
+  get isHydrated() {
+    return isHydrated(this);
   }
   get getMenu() {
     return this.menu;

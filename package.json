@@ -17,6 +17,7 @@
     "antd-mobile": "^5.37.1",
     "antd-mobile-icons": "^0.3.0",
     "mobx": "^6.13.0",
+    "mobx-persist-store": "^1.1.5",
     "mobx-react-lite": "^4.0.7",
     "normalize.css": "^8.0.1",
     "react": "^18.3.1",
