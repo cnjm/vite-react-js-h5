@@ -1,0 +1,43 @@
+{
+  "name": "react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "bootstrap": "pnpm install",
+    "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite",
+    "clean:lib": "rimraf node_modules",
+    "clean:dist": "rimraf dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd-mobile": "^5.37.1",
+    "antd-mobile-icons": "^0.3.0",
+    "mobx": "^6.13.0",
+    "mobx-react-lite": "^4.0.7",
+    "normalize.css": "^8.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.19",
+    "cnjm-postcss-px-to-viewport": "^1.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "less": "^4.2.0",
+    "postcss": "^8.4.39",
+    "postcss-less": "^6.0.0",
+    "unplugin-auto-import": "^0.17.6",
+    "vite": "^5.3.1",
+    "vite-plugin-imp": "^2.4.0"
+  }
+}
