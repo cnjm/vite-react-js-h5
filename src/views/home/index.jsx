@@ -9,6 +9,10 @@ function Home() {
       title: "Mobx",
       path: "/pages/mobx",
     },
+    {
+      title: "ToDoList",
+      path: "/pages/todo",
+    },
   ];
 
   function handleClick(path) {

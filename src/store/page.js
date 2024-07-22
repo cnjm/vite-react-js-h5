@@ -3,6 +3,7 @@ import { AppOutline, UserOutline } from "antd-mobile-icons";
 import { makePersistable, isHydrated } from "mobx-persist-store";
 
 class PageStore {
+  disabledIndex = 0;
   count = 0;
   menu = [
     {
@@ -32,6 +33,9 @@ class PageStore {
   }
   addCount() {
     this.count += 1;
+  }
+  setDisabledIndex() {
+    this.disabledIndex = 1;
   }
 }
 

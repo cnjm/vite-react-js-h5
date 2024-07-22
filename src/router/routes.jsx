@@ -22,4 +22,11 @@ export const routesMap = [
       title: "Mobx",
     },
   },
+  {
+    path: "/pages/todo",
+    element: lazy(() => import("/@/views/pages/todo/index.jsx")),
+    meta: {
+      title: "Todo",
+    },
+  },
 ];
