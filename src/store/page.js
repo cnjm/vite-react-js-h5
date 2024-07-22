@@ -30,9 +30,9 @@ class PageStore {
   get getMenu() {
     return this.menu;
   }
-  increaseLevel = () => {
+  addCount() {
     this.count += 1;
-  };
+  }
 }
 
 const pageStore = new PageStore();
