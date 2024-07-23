@@ -13,6 +13,10 @@ function Home() {
       title: "ToDoList",
       path: "/pages/todo",
     },
+    {
+      title: "Alova",
+      path: "/pages/alova",
+    },
   ];
 
   function handleClick(path) {

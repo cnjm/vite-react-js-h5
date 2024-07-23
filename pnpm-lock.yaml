@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@alova/mock':
+    specifier: ^1.5.2
+    version: 1.5.2
+  alova:
+    specifier: ^2.21.4
+    version: 2.21.4
   antd-mobile:
     specifier: ^5.37.1
     version: 5.37.1(react-dom@18.3.1)(react@18.3.1)
@@ -84,6 +90,10 @@ devDependencies:
     version: 2.4.0(vite@5.3.1)
 
 packages:
+
+  /@alova/mock@1.5.2:
+    resolution: {integrity: sha512-qEkOgTgzbltkTG/3bn1cvekP6AlPuqpv/N3s5dpu15neMGk24p1qnruz+aeNtg4rMU92zNJ+FtGZF4QRd/vxog==}
+    dev: false
 
   /@ampproject/remapping@2.3.0:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
@@ -1059,6 +1069,11 @@ packages:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
     dev: true
+
+  /alova@2.21.4:
+    resolution: {integrity: sha512-2zgAmgTpGdeYmyTXCMZKKEhkuVqj3jt+EWWmXfZ7he5PlGLoSLAyawR11R5kVfxl8wR7V36Ete9gzUaHs0u9fw==}
+    engines: {node: '>= 0.12.0'}
+    dev: false
 
   /ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}

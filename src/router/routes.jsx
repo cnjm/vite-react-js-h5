@@ -29,4 +29,11 @@ export const routesMap = [
       title: "Todo",
     },
   },
+  {
+    path: "/pages/alova",
+    element: lazy(() => import("/@/views/pages/alova/index.jsx")),
+    meta: {
+      title: "Alova",
+    },
+  },
 ];

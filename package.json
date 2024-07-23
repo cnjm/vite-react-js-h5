@@ -14,6 +14,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@alova/mock": "^1.5.2",
+    "alova": "^2.21.4",
     "antd-mobile": "^5.37.1",
     "antd-mobile-icons": "^0.3.0",
     "mobx": "^6.13.0",
